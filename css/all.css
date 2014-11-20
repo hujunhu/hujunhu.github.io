@@ -20,10 +20,7 @@ body {
   padding: 1.5em;
   border-top-left-radius: 1em;
   border-top-right-radius: 1em;
-  backgroud: #988745;
-}
-
-#header h1 {
+  background: #988745;
   font-size: 4em;
   color: #FFF;
 }
