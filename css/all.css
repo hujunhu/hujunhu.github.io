@@ -14,3 +14,35 @@ body {
   background: #FFF;
   border-radius: 1.5em;
 }
+
+#header {
+  text-align: center;
+  padding: 1.5em;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+  backgroud: #988745;
+}
+
+#header h1 {
+  font-size: 4em;
+  color: #FFF;
+}
+
+#menu {
+  background: #999912;
+}
+
+#menu ul li {
+  display: inline;
+}
+
+#menu ul li a {
+  color: white;
+  font-size: 1.3em;
+  padding: 0 0.5em;
+  line-height: 2.5em;
+}
+
+#content {
+  padding: 2em;
+}
