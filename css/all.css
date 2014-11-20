@@ -15,7 +15,7 @@ body {
 
 #header {
   text-align: center;
-  padding: 1em;
+  padding: 0.8em;
   border-top-left-radius: 1em;
   border-top-right-radius: 1em;
   background: #988745;
@@ -56,6 +56,6 @@ body {
 #footer {
   text-align: center;
   margin-bottom: 2em;
-  font-size: 0.8em;
-  padding: 0.4em;
+  font-size: 0.9em;
+  padding: 0.5em;
 }
