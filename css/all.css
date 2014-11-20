@@ -12,7 +12,6 @@ body {
   width: 50em;
   margin: 2em auto 0;
   background: #FFF;
-  border-radius: 1.5em;
 }
 
 #header {
@@ -21,6 +20,9 @@ body {
   border-top-left-radius: 1em;
   border-top-right-radius: 1em;
   background: #988745;
+}
+
+#header h1 {  
   font-size: 4em;
   color: #FFF;
 }
