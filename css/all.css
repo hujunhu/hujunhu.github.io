@@ -3,9 +3,13 @@ html, body {
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: Helvetica,Arial,"Microsoft YaHei","微软雅黑",STXihei,"华文细黑",SimSun,"宋体",sans-serif;
   background: #FFFACD;
   color: #6C6E58;
+}
+
+a:link {
+  text-decoration: none;
 }
 
 #wrapper {
@@ -51,6 +55,18 @@ body {
   padding: 2em;
   border-bottom-left-radius: 1em;
   border-bottom-right-radius: 1em;
+}
+
+#content h1 {
+  font-size: 2em;
+} 
+
+#content h2 {
+  font-size: 1.5em;
+}
+
+#content p {
+  text-indent: 2em;
 }
 
 #footer {
