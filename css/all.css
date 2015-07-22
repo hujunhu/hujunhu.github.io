@@ -53,6 +53,7 @@ a:link {
 #content {
   background: white;
   padding: 2em;
+  margin: 0.2em 0em;
   border-bottom-left-radius: 1em;
   border-bottom-right-radius: 1em;
 }
@@ -70,7 +71,7 @@ a:link {
 }
 
 #content ul {
-  margin: 0 2em 0;
+  margin: 0 2em;
 }
 
 #footer {
