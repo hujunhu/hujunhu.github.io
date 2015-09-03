@@ -5,7 +5,7 @@ html, body {
 body {
   font-family: Helvetica,Arial,"Microsoft YaHei","微软雅黑",STXihei,"华文细黑",SimSun,"宋体",sans-serif;
   background: #FFFACD;
-  color: #7C7E78;
+  color: #5C5E58;
 }
 
 a:link {
@@ -76,7 +76,7 @@ a:link {
 }
 
 #content p.post-meta {
-  color: #5c5e58;
+  color: #6C6E68;
 }
 
 #post_list ul {
