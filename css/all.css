@@ -75,9 +75,18 @@ a:link {
   margin: 0 2em;
 }
 
+#content p.post-meta {
+  color: #555;
+}
+
 #post_list ul {
   list-style-type: none;
-  margin: 0;
+  margin: 0 1em;
+  padding: 0;
+}
+
+#post_list ul li span {
+  float: right;
 }
 
 #footer {
