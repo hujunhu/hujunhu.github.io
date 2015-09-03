@@ -7,9 +7,11 @@ title: Too many open files 问题的解决
 ## 系统级别的fs.file-max
 
 这个是操作系统中所有程序总共能同时打开的文件句柄数量。查看方法：
+
 ```
 cat /proc/sys/fs/file-max
 ```
+
 其值为1万多，考虑到系统没有什么程序运行，1万多的句柄肯定够用。
 
 >	PS：如果该设置过小，可以通过在/etc/sysctl.conf中插入fs.file-max=65300设置，也可使用命令echo 6530>/proc/sys/fs/file-max 或 sysctl相关命令设置。
