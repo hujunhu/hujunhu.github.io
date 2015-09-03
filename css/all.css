@@ -59,6 +59,7 @@ a:link {
 
 #content h1 {
   font-size: 2em;
+  margin-top: 0;
 } 
 
 #content h2 {
@@ -76,6 +77,7 @@ a:link {
 
 #post_list ul {
   list-style-type: none;
+  margin: 0;
 }
 
 #footer {
