@@ -1,11 +1,7 @@
 ---
-layout: default
+layout: post
 title: Too many open files 问题的解决
 ---
-# {{ page.title }}
-
-{{page.date | date: "%Y-%m-%d"}}
-
 最近帮忙同事调试Linux程序，在程序运行一段时间后出现Too many open files(errno:24)错误。搜索发现与两个设置有关：系统级别的fs.file-max和程序级别的ulimit -n。
 
 ## 系统级别的fs.file-max
