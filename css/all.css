@@ -13,20 +13,20 @@ a:link {
 }
 
 #wrapper {
-  width: 50em;
-  margin: 2em auto 0;
+  width: 50rem;
+  margin: 2rem auto 0;
 }
 
 #header {
   text-align: center;
-  padding: 0.8em;
-  border-top-left-radius: 1em;
-  border-top-right-radius: 1em;
+  padding: 0.8rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
   background: #988745;
 }
 
 #header h1 {  
-  font-size: 2.4em;
+  font-size: 2.4rem;
   color: #FFF;
 }
 
@@ -52,42 +52,42 @@ a:link {
 
 #content {
   background: white;
-  padding: 2em;
-  border-bottom-left-radius: 1em;
-  border-bottom-right-radius: 1em;
+  padding: 2rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
 }
 
 #content h1 {
-  font-size: 2em;
-  margin: 0 0 1em;
+  font-size: 2rem;
+  margin: 0 0 1rem;
 } 
 
 #content h2 {
-  font-size: 1.5em;
+  font-size: 1.5rem;
 }
 
 #content p {
-  text-indent: 2em;
-  margin: 0.2em 0em;
+  text-indent: 2rem;
+  margin: 0.2rem 0rem;
 }
 
 #content ul {
-  margin: 0 2em;
+  margin: 0 2rem;
 }
 
 #content p.post-meta {
   color: #7C7E78;
-  margin: 0 0 1em;
+  margin: 0 0 1rem;
 }
 
 #content blockquote p {
   text-indent: 0;
-  margin: 0 0 0 2em;
+  margin: 0 0 0 2rem;
 }
 
 #post_list ul {
   list-style-type: none;
-  margin: 0 1em;
+  margin: 0 1rem;
   padding: 0;
 }
 
