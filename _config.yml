@@ -1,7 +1,5 @@
 timezone: Asia/Shanghai
 encoding: utf-8
 pygments: true
-markdown: redcarpet
-redcarpet:
-        extensions: ["fenced_code_blocks", "autolink", "tables", "strikethrough"]
+markdown: kramdown
 
