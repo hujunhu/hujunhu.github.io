@@ -3,7 +3,6 @@ layout: post
 title: hexdump 的选项 -e
 ---
 hexdump 是一个非常好用的十六进制查看工具。我最常用的命令是 hexdump -C，可以同时输出十六进制和对应字符。但是有时候，我们希望按指定格式输出，这时需要使用 -e 选项，形式如下：
-
 ```
 hexdump -e '"format3" a1/a2 "format2" "format1"'
 ```
@@ -23,10 +22,8 @@ hexdump -e '"format3" a1/a2 "format2" "format1"'
 同一行如果要显示多个格式字符串，则可使用多个 -e 选项组合。
 
 一些例子：
-
 ```
 hexdump -e '16/1 "%02x " "\n"' filename
-
 hexdump -e '"%08_aX  " 16/1 "%02X " "  \|"' -e '16/1 "%_p\|" "\n"' filename
 ```
 
