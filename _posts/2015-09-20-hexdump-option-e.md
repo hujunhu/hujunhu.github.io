@@ -29,3 +29,4 @@ hexdump -e '16/1 "%02x " "\n"' filename
 
 hexdump -e '"%08_aX  " 16/1 "%02X " "  \|"' -e '16/1 "%_p\|" "\n"' filename
 ```
+
