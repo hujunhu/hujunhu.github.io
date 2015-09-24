@@ -1,4 +1,6 @@
 timezone: Asia/Shanghai
 encoding: utf-8
-kramdown:
-        input: GFM
+markdown: kramdown
+redcarpet:
+        extensions: ["fenced_code_blocks", "autolink", "tables", "strikethrough"]
+
