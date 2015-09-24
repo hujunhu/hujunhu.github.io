@@ -95,6 +95,30 @@ a:link {
   float: right;
 }
 
+code, pre {
+  font-family: "DejaVu Sans Mono", Consolas, "Courier New", Arial, monospace;
+  font-size: 0.94rem;
+  border-radius: 3px;
+  background-color: #F8F8F8;
+  border: 1px solid #CCC;
+}
+
+pre {
+  padding: 2px 5px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow: auto;
+}
+
+code {
+  padding: 0 3px;
+}
+
+pre code {
+  border: 0px none !important;
+  line-height: 1.2rem;
+}
+
 #footer {
   text-align: center;
   margin-bottom: 2em;
