@@ -1,2 +1,4 @@
 timezone: Asia/Shanghai
 encoding: utf-8
+kramdown:
+        input: GFM
