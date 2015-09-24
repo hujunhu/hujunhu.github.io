@@ -21,8 +21,7 @@ hexdump 是一个非常好用的十六进制查看工具。我最常用的命令
 同一行如果要显示多个格式字符串，则可使用多个 -e 选项组合。
 
 一些例子：
-
-	hexdump -e '16/1 "%02x " "\n"' filename
-
-	hexdump -e '"%08_aX  " 16/1 "%02X " "  \|"' -e '16/1 "%_p\|" "\n"' filename
-
+```shell
+hexdump -e '16/1 "%02x " "\n"' filename
+hexdump -e '"%08_aX  " 16/1 "%02X " "  \|"' -e '16/1 "%_p\|" "\n"' filename
+```
