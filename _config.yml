@@ -3,7 +3,6 @@ encoding: "utf-8"
 highlighter: pygments
 # markdown: redcarpet     # kramdown, redcarpet, rdiscont
 markdown: kramdown     # kramdown, redcarpet, rdiscont
-pygments: true
 
 redcarpet:
         extensions: ["fenced_code_blocks", "hard_wrap", "autolink", "tables", "strikethrough", "superscript", "with_toc_data", "highlight", "no_intra_emphasis"]
