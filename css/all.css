@@ -9,14 +9,12 @@ body {
 }
 
 a:hover {
-  color: #DEB173;
+  color: #000;
+  /* color: #696408; */
 }
 
-a, a:visited {
-  color: #696408;
-}
-
-a:link {
+a:link, a:visited {
+  color: #9B9F02;
   text-decoration: none;
 }
 
