@@ -104,14 +104,14 @@ code, pre {
 }
 
 pre {
-  padding: 2px 5px;
-  white-space: pre-wrap;
+  margin: 0;
+  padding: 2px 0.8rem;
+  white-space: pre;
   word-wrap: break-word;
   overflow: auto;
 }
 
 code {
-  padding: 0 2px;
 }
 
 pre code {
