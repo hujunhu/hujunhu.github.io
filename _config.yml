@@ -2,4 +2,3 @@ timezone: Asia/Shanghai
 encoding: utf-8
 highlighter: pygments
 markdown: kramdown
-
