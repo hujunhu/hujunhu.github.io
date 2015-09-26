@@ -1,6 +1,6 @@
 timezone: Asia/Shanghai
 encoding: "utf-8"
-highlighter: pygments
+highlighter: rouge
 markdown: kramdown
 kramdown:
         input: GFM
