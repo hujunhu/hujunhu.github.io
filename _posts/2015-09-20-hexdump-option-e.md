@@ -4,7 +4,7 @@ title: hexdump 的选项 -e
 ---
 hexdump 是一个非常好用的十六进制查看工具。我最常用的命令是 hexdump -C，可以同时输出十六进制和对应字符。但是有时候，我们希望按指定格式输出，这时需要使用 -e 选项，形式如下：
 
-```bash
+```
 hexdump -e '"format3" a1/a2 "format2" "format1"'
 ```
 
