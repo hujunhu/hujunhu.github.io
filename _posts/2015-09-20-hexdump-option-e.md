@@ -6,6 +6,7 @@ hexdump 是一个非常好用的十六进制查看工具。我最常用的命令
 ~~~javascript
 hexdump -e '"format3" a1/a2 "format2" "format1"'
 ~~~
+
 格式字符串由三部分组成，由空格分隔。上面的表达式指每行开始输出 format3，每 a2 个字节应用 format2，每 a1 个字节应用 format1。一般a1 > a2，且 a2 只能为1、2、4。format1、format2 和 format3 使用类似 printf 的格式字符串，如：
 
 %02X：两位十六进制
