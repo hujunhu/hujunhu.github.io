@@ -1,11 +1,11 @@
 timezone: Asia/Shanghai
 encoding: "utf-8"
 highlighter: pygments
+# markdown: redcarpet     # kramdown, redcarpet, rdiscont
 markdown: kramdown     # kramdown, redcarpet, rdiscont
 
 redcarpet:
-        extensions: ["fenced_code_blocks", "hard_wrap","autolink", "tables", "strikethrough", "superscript", "with_toc_data", "highlight", "prettify","no_intra_emphasis"]
+        extensions: ["fenced_code_blocks", "hard_wrap", "autolink", "tables", "strikethrough", "superscript", "with_toc_data", "highlight", "no_intra_emphasis"]
 
 kramdown:
         input: GFM
-        hard_wrap: false
