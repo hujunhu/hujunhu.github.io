@@ -120,7 +120,8 @@ pre {
   overflow: auto;
 }
 
-code {
+#content p > code {
+  padding: 0 0.2rem;
 }
 
 pre code {
