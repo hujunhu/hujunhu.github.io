@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Linux From Scratch 零 - 介绍
+title: Linux From Scratch 0 - 介绍
 ---
 Linux From Scratch(LFS)是由 Gerard Beekmans 等人编写的关于从源码编译安装Linux系统的详细说明手册。我参考的版本为6.3，最新版本请查阅[LFS新闻](http://www.linuxfromscratch.org/lfs/news.html)。
 
@@ -14,29 +14,30 @@ Linux From Scratch(LFS)是由 Gerard Beekmans 等人编写的关于从源码编�
 
 ## 步骤概括
 
-尽管目标是安装一个与现有发行版毫无关系的系统，但安装LFS仍然不能无中生有，而必须要有一个可以编译软件包的运行中的Linux系统。这个系统一般称为宿主系统。对于新机器，可以选用Linux发行版提供的光盘操作系统（LiveCD）作为宿主。在宿主操作系统上安装LFS，需要的步骤如下：
+尽管目标是安装一个与现有发行版毫无关系的系统，但安装LFS仍然不能无中生有，而必须要有一个可以编译软件包的运行中的Linux系统。这个系统一般称为宿主系统。对于新机器，可以选用Linux发行版提供的光盘操作系统(LiveCD)作为宿主。在宿主操作系统上安装LFS，需要的步骤如下：
 
-1. 对硬盘分区，添加用于安装LFS的用户和组（LFS教科书第2章）
-2. 下载所有需要的软件包源代码（LFS教科书第3章）
-3. 准备开发环境（LFS教科书第4章）
-4. 构造一个基本开发环境（称为工具链）（LFS教科书第5章）
-5. 构造完整的目标系统（LFS教科书第6章）
-6. 配置系统启动脚本（LFS教科书第7章）
-7. 启动系统（LFS教科书第8章）
+1. 准备一个新分区(LFS教科书第2章)
+2. 下载所有需要的软件包源代码和补丁(LFS教科书第3章)
+3. 准备开发环境(LFS教科书第4章)
+4. 构造一个基本开发环境(称为工具链)(LFS教科书第5章)
+5. 构造完整的目标系统(LFS教科书第6章)
+6. 配置系统启动脚本(LFS教科书第7章)
+7. 启动系统(LFS教科书第8章)
 
+PS: 该系列文章将按照以上顺序编写。
 
 ## 相关子项目
 
-Beyond Linux From Scratch（BLFS）：标准LFS仅仅安装了足够让系统启动的基本软件，以及使新系统能够编译新软件包的开发工具。BLFS包括了更多的软件包，且都有相应指导。
+Beyond Linux From Scratch(BLFS)：标准LFS仅仅安装了足够让系统启动的基本软件，以及使新系统能够编译新软件包的开发工具。BLFS包括了更多的软件包，且都有相应指导。
 
-Crosss Linux From Scratch（CLFS）：为需要进行交叉编译（即在一个平台上编译另一个平台的代码）的用户提供指导。
+Crosss Linux From Scratch(CLFS)：为需要进行交叉编译(即在一个平台上编译另一个平台的代码)的用户提供指导。
 
-Automated Linux From Scratch（ALFS）：标准LFS只是一本书，用户需要根据书上的指引下载软件包并手动输入指令进行编译。ALFS子项目提供了把这一切自动化的脚本。
+Automated Linux From Scratch(ALFS)：标准LFS只是一本书，用户需要根据书上的指引下载软件包并手动输入指令进行编译。ALFS子项目提供了把这一切自动化的脚本。
 
-Hardened Linux From Scratch（HLFS）：致力于打造在安全性上无懈可击的Linux系统。
+Hardened Linux From Scratch(HLFS)：致力于打造在安全性上无懈可击的Linux系统。
 
 Hints：收集一些解释性、增强性的文档，以协助用户。
 
 Patches：由于软件之间的依赖关系，在升级软件包之后可能会导致LFS的过程出现故障。Patch项目致力于研究最新版本的软件之间的互动，并提供一些补丁修复这些故障。
 
-除此之外，该项目另有一个名为CBLFS（Community Driven BLFS）的项目，该项目实际是一个Wiki网站，依靠网友的自发贡献来提交各种软件包的安装方式。
+除此之外，该项目另有一个名为CBLFS(Community Driven BLFS)的项目，该项目实际是一个Wiki网站，依靠网友的自发贡献来提交各种软件包的安装方式。
