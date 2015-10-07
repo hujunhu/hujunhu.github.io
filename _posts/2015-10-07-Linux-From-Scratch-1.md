@@ -32,7 +32,7 @@ partprobe /dev/sda
 
 ``` bash
 mkfs -t ext3 /dev/sda1	# 创建ext3文件系统，存放文件
-mkswap /dev/sda2		# 交换空间
+mkswap /dev/sda2	# 交换空间
 ```
 执行以下命令挂载文件系统和交换空间：
 
@@ -66,11 +66,11 @@ useradd -s /bin/bash -g lfs -m -k /dev/null lfs
 ```
 命令行选项的含义：
 
--s /bin/bash：指定 bash 作为 lfs 用户的默认 shell
--g lfs：将 lfs 用户添加到 lfs 组
--m：为 lfs 用户创建 home 目录
--k /dev/null：这个参数通过修改输入位置为特殊的空设备来防止从框架目录(默认为 /etc/skel)拷贝文件
-lfs：这是所创建的组和用户的实际名字
+> -s /bin/bash：指定 bash 作为 lfs 用户的默认 shell
+> -g lfs：将 lfs 用户添加到 lfs 组
+> -m：为 lfs 用户创建 home 目录
+> -k /dev/null：这个参数通过修改输入位置为特殊的空设备来防止从框架目录(默认为 /etc/skel)拷贝文件
+> lfs：这是所创建的组和用户的实际名字
 
 修改密码：`passwd lfs`
 
