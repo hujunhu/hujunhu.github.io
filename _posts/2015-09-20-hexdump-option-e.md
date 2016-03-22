@@ -26,5 +26,5 @@ hexdump -e '"format3" a1/a2 "format2" "format1"'
 
 ``` bash
 hexdump -e '16/1 "%02x " "\n"' filename
-hexdump -e '"%08_aX  " 16/1 "%02X " "  \|"' -e '16/1 "%_p\|" "\n"' filename
+hexdump -e '"%08_ax  " 16/1 "%02X " "  \|"' -e '16/1 "%_p\|" "\n"' filename
 ```
